@@ -704,7 +704,7 @@ def train_model(x_train, t_train, x_test, t_test, model_path="mnist_cnn_model.h5
     # 모델 파라미터 설정
     lr = 0.001
     batch_size = 128
-    epochs = 10  # 학습 에폭 수 설정
+    epochs = 15  # 학습 에폭 수 설정
     
     # 모델 생성 및 컴파일
     model = create_cnn_model()
